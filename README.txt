@@ -8,11 +8,12 @@ Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Convert your Gravity Forms into Google Material Ui design in one click. Style them with the live visual styler.
+Convert your Gravity Forms into Google Material UI design in one click. Style them with the live visual styler.
 
 == Description ==
 
-Convert your Gravity Forms into Google Material Ui design in one click. Style them with the live visual styler.
+Convert your Gravity Forms into Google Material UI design in one click. Style them with the live visual styler.
+[**DEMO**](https://kudumagnets.com/backup/gravitizer-demo)
 
 **How to use:**
 
@@ -48,6 +49,9 @@ Convert your Gravity Forms into Google Material Ui design in one click. Style th
 2. The live visual styler
 
 == Changelog ==
+
+= 1.0.1 =
+* Added demo link.
 
 = 1.0.0 =
 * First release.
