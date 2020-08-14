@@ -22,24 +22,7 @@ Convert your Gravity Forms into Google Material UI design in one click. Style th
 *   Select "Yes" from the dropdown called "Enable Material UI for this field"
 *   Save your form and you can see the field is now converted into Material UI !
 
-**Free version features:**
 
-*   **Material Normal** and **Material Outlined** both designs are included
-*   Use any material icon in your fields
-*   Supports conditional logic
-*   Supports dynamic population
-*   Use the visual styler to customize the form live.
-*   Apply different design to different forms
-
-**Pro version features:**
-
-*   All free version features
-*   Support for Material dropdowns
-*   Support for Material date pickers
-*   Extended functionalities in the visual styler.
-*   **6 months free support**.
-
-[**Get Gravitizer Pro Now!**](https://codecanyon.net/item/gravitizer-gravity-forms-material-ui-styler/26570055)
     
 
 
@@ -55,6 +38,25 @@ Convert your Gravity Forms into Google Material UI design in one click. Style th
 
 = 1.0.0 =
 * First release.
+
+== Free version features ==
+
+*   **Material Normal** and **Material Outlined** both designs are included
+*   Use any material icon in your fields
+*   Supports conditional logic
+*   Supports dynamic population
+*   Use the visual styler to customize the form live.
+*   Apply different design to different forms
+
+== Pro version features ==
+
+*   All free version features
+*   Support for Material dropdowns
+*   Support for Material date pickers
+*   Extended functionalities in the visual styler.
+*   **6 months free support**.
+
+[**Get Gravitizer Pro Now!**](https://codecanyon.net/item/gravitizer-gravity-forms-material-ui-styler/26570055)
 
 == Want to contribute? ==
 You are welcome to contribute to this open source plugin.

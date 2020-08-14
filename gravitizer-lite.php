@@ -63,21 +63,29 @@ register_deactivation_hook( __FILE__, 'gravitizer_lite_deactivate' );
  * The core plugin class that is used to define internationalization,
  * admin-specific hooks, and public-facing site hooks.
  */
-require plugin_dir_path( __FILE__ ) . 'includes/class-gravitizer-lite.php';
+if ( !is_plugin_active( 'gravitizer/gravitizer.php' ) ) {
+	//pro version is activated
+	require plugin_dir_path( __FILE__ ) . 'includes/class-gravitizer-lite.php';
+	/**
+	 * Begins execution of the plugin.
+	 *
+	 * Since everything within the plugin is registered via hooks,
+	 * then kicking off the plugin from this point in the file does
+	 * not affect the page life cycle.
+	 *
+	 * @since    1.0.0
+	 */
+	function gravitizer_lite_run() {
 
-/**
- * Begins execution of the plugin.
- *
- * Since everything within the plugin is registered via hooks,
- * then kicking off the plugin from this point in the file does
- * not affect the page life cycle.
- *
- * @since    1.0.0
- */
-function gravitizer_lite_run() {
+		$plugin = new Gravitizer_Lite();
+		$plugin->run();
 
-	$plugin = new Gravitizer_Lite();
-	$plugin->run();
+	}
 
-}
-gravitizer_lite_run();
+	gravitizer_lite_run();
+
+} 
+
+
+
+

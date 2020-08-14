@@ -373,11 +373,17 @@ class Gravitizer_Lite_Admin {
 				<label class="section_label">
 				<?php echo esc_html__( 'Upgrade to ', 'gravitizer-lite').'<span class="gravitizer-pro-branding"><a target="_blank" href="https://codecanyon.net/item/gravitizer-gravity-forms-material-ui-styler/26570055">Gravitizer Pro</a></span> '.esc_html__('to use Material UI for Dropdown field', 'gravitizer-lite' ); ?>
 				</label>
+				<div class="gravitizer-pro-demo">
+					<img src="<?php echo plugin_dir_url( dirname( __FILE__ ) ).'admin/img/dropdown.gif'; ?>">
+				</div>
 			</li>
 			<li class="gravitizer_pro_setting gravitizer_pro_date field_setting">
 				<label class="section_label">
 				<?php echo esc_html__( 'Upgrade to ', 'gravitizer-lite').'<span class="gravitizer-pro-branding"><a target="_blank" href="https://codecanyon.net/item/gravitizer-gravity-forms-material-ui-styler/26570055">Gravitizer Pro</a></span> '.esc_html__('to use Material UI for Date field', 'gravitizer-lite' ); ?>
 				</label>
+				<div class="gravitizer-pro-demo">
+					<img src="<?php echo plugin_dir_url( dirname( __FILE__ ) ).'admin/img/date.gif'; ?>">
+				</div>
 			</li>
 			<li class="date_appearance_setting field_setting">
 				<label for="date_appearance_setting" class="section_label">

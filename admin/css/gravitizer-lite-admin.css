@@ -45,3 +45,7 @@ span.gravitizer-pro-branding a{
 h2.gravitizer-pro-branding a {
     color: #ff026b;
 }
+
+.gravitizer-pro-demo img {
+    height: 185px;
+}
