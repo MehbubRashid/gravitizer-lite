@@ -1,0 +1,47 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+
+.pickr {
+    position: relative;
+    overflow: hidden;
+    transform: translateY(0);
+    width: max-content;
+    float: left;
+    margin-top: 4px;
+    width: 23px;
+    height: 23px;
+}
+.color-picker {
+    width: 100px;
+    text-align: center;
+}
+
+/* Checkbox */
+.mdc-checkbox {
+    display: inline-block;
+}
+.mdc-checkbox svg {
+    display: none;
+}
+
+
+/* Switch */
+.mdc-switch {
+    display: inline-block;
+}
+
+/* Radio */
+.mdc-radio {
+    display: inline-block;
+}
+
+span.gravitizer-pro-branding a{
+    color: #ff026b;
+}
+
+h2.gravitizer-pro-branding a {
+    color: #ff026b;
+}

@@ -1,0 +1,550 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+/* Material css */
+/* fallback */
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+  
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    font-feature-settings: 'liga';
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+label.mdc-text-field--textarea {
+    position: relative;
+}
+.gform_wrapper .top_label .gravitizer_field input.small, .gform_wrapper .top_label .gravitizer_field input.medium, .gform_wrapper .top_label .gravitizer_field input.large {
+    width: 100%;
+}
+.gravitizer-large {
+    width: 100%;
+}
+.gravitizer-small {
+    width: 25%;
+}
+.gravitizer-medium {
+    width: 50%;
+}
+
+
+
+/* Text field */
+.mdc-form-field, .mdc-floating-label,.mdc-select__selected-text {
+    font-family: inherit;
+}
+.mdc-select__selected-text,.mdc-select--outlined .mdc-select__selected-text {
+    display: flex;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: auto;
+}
+.gfield_error .mdc-text-field:not(.mdc-text-field--disabled) .mdc-text-field__icon {
+    color : #b00320;
+}
+.mdc-text-field:not(.mdc-text-field--outlined), .mdc-text-field:not(.mdc-text-field--outlined).mdc-text-field--focused.mdc-ripple-upgraded.mdc-ripple-upgraded--background-focused, .mdc-text-field:not(.mdc-text-field--outlined):focus {
+    height: auto;
+    background: #fff;
+    overflow: visible;
+}
+.mdc-text-field:not(.mdc-text-field--outlined):before, .mdc-text-field:not(.mdc-text-field--outlined):after {
+    background-color: transparent;
+}
+.mdc-text-field:not(.mdc-text-field--outlined) input[type=text] {
+    border-top:0;
+    border-left: 0;
+    border-right: 0;
+    margin-top: 10px;
+}
+.mdc-text-field:not(.mdc-text-field--outlined) .mdc-floating-label, .mdc-text-field:not(.mdc-text-field--outlined) .mdc-floating-label.mdc-floating-label--float-above {
+    left:0px;
+}
+.mdc-text-field:not(.mdc-text-field--outlined).mdc-text-field--with-leading-icon .mdc-floating-label {
+    left:53px;
+}
+.mdc-text-field:not(.mdc-text-field--outlined) .mdc-floating-label--float-above {
+    -webkit-transform: translateY(-27px) translateX(-14px) scale(0.75);
+    transform: translateY(-27px) translateX(-14px) scale(0.75);
+}
+.mdc-text-field:not(.mdc-text-field--outlined).mdc-text-field--with-leading-icon .mdc-floating-label--float-above {
+    -webkit-transform: translateY(-27px) translateX(-14px) scale(0.75);
+    transform: translateY(-27px) translateX(0px) scale(0.75);
+}
+.gform_wrapper .mdc-text-field:not(.mdc-text-field--outlined) input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
+    padding: 0;
+    padding-left: 5px;
+    border-radius: 0;
+}
+.gform_wrapper .mdc-text-field:not(.mdc-text-field--outlined).mdc-text-field--with-leading-icon input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
+    padding: 0;
+    padding-left: 52px;
+    border-radius: 0;
+}
+.gform_wrapper .mdc-text-field:not(.mdc-text-field--outlined).mdc-text-field--with-trailing-icon input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
+    padding-right: 50px;
+}
+
+.mdc-text-field:not(.mdc-text-field--outlined) .mdc-text-field__input {
+    height: 46px;
+}
+.mdc-floating-label {
+    line-height: 24px;
+}
+
+
+
+/* Address field */
+body .gform_wrapper .top_label .ginput_container_address .ginput_container{
+    margin-top: 20px;
+}
+body .gform_wrapper .top_label .ginput_container_address .ginput_container .mdc-select__anchor{
+    margin-top: 2px;
+}
+body .gform_wrapper .top_label .ginput_container_address .address_state .ginput_container .mdc-select__anchor{
+    margin-top: 0px;
+}
+.gform_wrapper .field_sublabel_below .ginput_complex .ginput_container.gravitizer_field label, .gform_wrapper .field_sublabel_above .ginput_complex .ginput_container.gravitizer_field label {
+    display: flex;
+}
+
+
+
+
+/* Name field */
+.ginput_container_name .mdc-select__anchor {
+    margin-top: 1px;
+}
+
+/* Date field */
+.datedropper:not(.picker-modal) {
+    z-index: 9999;
+}
+
+
+/* Select field */
+.mdc-select {
+    height: 51px;
+}
+.mdc-select__dropdown-icon {
+    z-index: 1;
+}
+.mdc-select .mdc-notched-outline:not(.mdc-notched-outline--notched) .mdc-notched-outline__notch {
+    display: flex;
+    align-items: center;
+}
+.mdc-select .mdc-notched-outline:not(.mdc-notched-outline--notched) .mdc-notched-outline__notch span {
+    position: unset;
+}
+.mdc-select:not(.mdc-select--outlined) .mdc-floating-label {
+    left: 0px;
+    top: 16px;
+}
+.mdc-select--outlined .mdc-notched-outline--notched .mdc-notched-outline__notch {
+    padding-right: 0px;
+}
+.mdc-select__anchor::before, .mdc-select__anchor::after {
+    width: auto;
+    height: auto;
+}
+.mdc-select:not(.mdc-select--disabled):not(.mdc-select--outlined) .mdc-select__anchor {
+    background-color: #fff;
+    border-bottom: 1px solid transparent;
+    overflow: visible;
+}
+.mdc-select:not(.mdc-select--outlined) .mdc-select__anchor:before, .mdc-select:not(.mdc-select--outlined) .mdc-select__anchor:after {
+    background-color: #ddd;
+}
+.mdc-select:not(.mdc-select--outlined) .mdc-select__selected-text {
+    padding-left: 0;
+    border-bottom: 0;
+    margin-top: 10px;
+}
+.address_country .mdc-select:not(.mdc-select--outlined) {
+    margin-top: 10px;
+}
+.mdc-select:not(.mdc-select--outlined) .mdc-floating-label.mdc-floating-label--float-above {
+    left: 0px;
+    top:12px;
+}
+.mdc-select__anchor {
+    width: 100% !important;
+    height: 49px;
+}
+.mdc-menu-surface {
+    max-width: 100%;
+    width: 100%;
+}
+.mdc-menu-surface--open {
+    width: 100%;
+}
+.mdc-select select {
+    display: none !important;
+}
+body .gform_wrapper .top_label .mdc-select div.ginput_container {
+    margin-top: 0;
+}
+.mdc-select__dropdown-icon,.mdc-select--focused .mdc-select__dropdown-icon{
+    background: url(data:image/svg+xml,%3Csvg%20width%3D%2210px%22%20height%3D%225px%22%20viewBox%3D%227%2010%2010%205%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%0A%20%20%20%20%3Cpolygon%20id%3D%22Shape%22%20stroke%3D%22none%22%20fill%3D%22%23000%22%20fill-rule%3D%22evenodd%22%20opacity%3D%220.54%22%20points%3D%227%2010%2012%2015%2017%2010%22%3E%3C%2Fpolygon%3E%0A%3C%2Fsvg%3E) no-repeat center;
+}
+
+/* Radio field */
+.mdc-radio {
+    padding: 0 !important;           
+}
+.gravitizer-radio-wrapper .mdc-form-field>label {
+    margin-left: 30px;
+    margin-top: -22px;
+    margin-right: auto;
+    display: block;
+    padding-left: 4px;
+    padding-right: 0;
+    order: 0;
+    width: max-content;
+}
+.gravitizer-radio-wrapper .mdc-form-field {
+    display: block;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+/* Checkbox field */
+.gravitizer-checkbox-wrapper .mdc-checkbox .mdc-checkbox__background {
+    top :9px;
+    left: 9px;
+}
+.gravitizer-checkbox-wrapper .mdc-checkbox {
+    padding: 18px;
+}
+.gravitizer-checkbox-wrapper .mdc-form-field {
+    display: block;
+    margin-bottom: 6px;
+    margin-left: -9px;
+}
+.gravitizer-checkbox-wrapper .mdc-form-field>label {
+    margin-left: 0;
+    margin-right: auto;
+    padding-left: 4px;
+    padding-right: 0;
+    order: 0;
+    display: block;
+    margin-top: -23px;
+    margin-left: 37px;
+    width: max-content;
+}
+
+
+/* Switch */
+.gravitizer-switch-wrapper label {
+    display: block;
+    margin-top: -22px;
+    margin-left: 50px;
+    font-size: 16px;
+    width: max-content;
+}
+.gravitizer-switch-wrapper {
+    margin-bottom: 20px;
+}
+
+
+
+/* Textfield adjustments */
+.mdc-text-field--with-leading-icon.mdc-text-field--outlined .mdc-text-field__input {
+    padding-left: 48px !important;
+    padding-right: 16px !important;
+}
+.mdc-text-field--with-trailing-icon.mdc-text-field--outlined .mdc-text-field__input {
+    padding-right: 48px !important;
+    padding-left: 16px !important;
+}
+ul.mdc-list {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.gform_wrapper form li.mdc-list-item, .gform_wrapper li.mdc-list-item {
+    overflow: hidden;
+}
+
+
+/* Tooltip */
+/* START TOOLTIP STYLES */
+[tooltip] {
+    position: relative; /* opinion 1 */
+    display: block;
+    width: 100%;
+}
+
+/* Applies to all tooltips */
+[tooltip]::before,
+[tooltip]::after {
+    text-transform: none; /* opinion 2 */
+    font-size: .9em; /* opinion 3 */
+    line-height: 1;
+    user-select: none;
+    pointer-events: none;
+    position: absolute;
+    display: none;
+    opacity: 0;
+}
+[tooltip]::before {
+    content: '';
+    border: 5px solid transparent; /* opinion 4 */
+    z-index: 1001; /* absurdity 1 */
+}
+[tooltip]::after {
+    content: attr(tooltip); /* magic! */
+
+    /* most of the rest of this is opinion */
+    text-align: center;
+
+    /* 
+    Let the content set the size of the tooltips 
+    but this will also keep them from being obnoxious
+    */
+    min-width: 3em;
+    max-width: 21em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 1ch 1.5ch;
+    border-radius: .3ch;
+    box-shadow: 0px 3px 7px -2px rgb(41, 38, 38);
+    background: #000;
+    color: #fff;
+    z-index: 1000; /* absurdity 2 */
+}
+
+/* Make the tooltips respond to hover */
+[tooltip]:hover::before,
+[tooltip]:hover::after {
+    display: block;
+}
+
+/* don't show empty tooltips */
+[tooltip='']::before,
+[tooltip='']::after {
+    display: none;
+}
+
+/* FLOW: UP */
+[tooltip]:not([flow])::before,
+[tooltip][flow^="up"]::before {
+    bottom: 100%;
+    border-bottom-width: 0;
+    border-top-color: #000;
+}
+[tooltip]:not([flow])::after,
+[tooltip][flow^="up"]::after {
+    bottom: calc(100% + 5px);
+}
+[tooltip]:not([flow])::before,
+[tooltip]:not([flow])::after,
+[tooltip][flow^="up"]::before,
+[tooltip][flow^="up"]::after {
+    left: 50%;
+    transform: translate(-50%, -.5em);
+}
+
+/* FLOW: DOWN */
+[tooltip][flow^="down"]::before {
+    top: 100%;
+    border-top-width: 0;
+    border-bottom-color: #000;
+}
+[tooltip][flow^="down"]::after {
+    top: calc(100% + 5px);
+}
+[tooltip][flow^="down"]::before,
+[tooltip][flow^="down"]::after {
+    left: 50%;
+    transform: translate(-50%, .5em);
+}
+
+/* FLOW: LEFT */
+[tooltip][flow^="left"]::before {
+    top: 50%;
+    border-right-width: 0;
+    border-left-color: #000;
+    left: calc(0em - 5px);
+    transform: translate(-.5em, -50%);
+}
+[tooltip][flow^="left"]::after {
+    top: 50%;
+    right: calc(100% + 5px);
+    transform: translate(-.5em, -50%);
+}
+
+/* FLOW: RIGHT */
+[tooltip][flow^="right"]::before {
+    top: 50%;
+    border-left-width: 0;
+    border-right-color: #000;
+    right: calc(0em - 5px);
+    transform: translate(.5em, -50%);
+}
+[tooltip][flow^="right"]::after {
+    top: 50%;
+    left: calc(100% + 5px);
+    transform: translate(.5em, -50%);
+}
+
+/* KEYFRAMES */
+@keyframes tooltips-vert {
+    to {
+        opacity: .8;
+        transform: translate(-50%, 0);
+    }
+}
+
+@keyframes tooltips-horz {
+    to {
+        opacity: .8;
+        transform: translate(0, -50%);
+    }
+}
+
+/* FX All The Things */ 
+[tooltip]:not([flow]):hover::before,
+[tooltip]:not([flow]):hover::after,
+[tooltip][flow^="up"]:hover::before,
+[tooltip][flow^="up"]:hover::after,
+[tooltip][flow^="down"]:hover::before,
+[tooltip][flow^="down"]:hover::after {
+    animation: tooltips-vert 300ms ease-out forwards;
+}
+
+[tooltip][flow^="left"]:hover::before,
+[tooltip][flow^="left"]:hover::after,
+[tooltip][flow^="right"]:hover::before,
+[tooltip][flow^="right"]:hover::after {
+    animation: tooltips-horz 300ms ease-out forwards;
+}
+  
+
+/* Error fields */
+div.gform_wrapper li.gfield_error .mdc-text-field:not(.mdc-text-field--outlined) input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+}
+div.gform_wrapper li.gfield_error .gravitizer_field textarea{
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+}
+
+/* Additional */
+.mdc-floating-label.mdc-floating-label--float-above {
+    width: auto;
+    display: inline-block;
+}
+.gform_wrapper.gf_browser_chrome .gfield_error .ginput_complex.ginput_container.has_first_name.has_middle_name.has_last_name span.name_last.has_gravitizer, 
+.gform_wrapper.gf_browser_chrome .gfield_error .ginput_complex.ginput_container.has_first_name.has_middle_name.has_last_name span.name_middle.has_gravitizer {
+    margin-left: 0;
+}
+
+
+/* Multi theme adjustment */
+.mdc-text-field .mdc-floating-label,.mdc-select.mdc-select--outlined .mdc-floating-label {
+    display: inline-block;
+    width: auto;
+}
+.mdc-text-field:not(.mdc-text-field--disabled).mdc-text-field--outlined .mdc-text-field__input {
+    margin:0 !important;
+}
+.mdc-text-field:not(.mdc-text-field--disabled) .mdc-text-field__input {
+    margin-bottom:0 !important;
+    box-shadow: none;
+    outline: 0;
+    background: transparent !important;
+}
+.mdc-text-field:not(.mdc-text-field--disabled):not(.mdc-text-field--outlined):not(.mdc-text-field--textarea) .mdc-text-field__input {
+    border-bottom-width: 1px;
+    border-bottom:1px solid #ddd;
+}
+.mdc-text-field--textarea textarea {
+    box-shadow: none;
+    outline: 0;
+    background: transparent !important;
+}
+
+
+
+
+
+
+/* Responsive */
+@media only screen and (min-width: 641px) {
+    .gform_wrapper .top_label .gravitizer_field input.small, .gform_wrapper .top_label .gravitizer_field input.medium, .gform_wrapper .top_label .gravitizer_field input.large {
+        width: 100%;
+    }
+    .gform_wrapper.gform_validation_error .top_label .gravitizer_field input.medium, .gform_wrapper.gform_validation_error .top_label .gravitizer_field select.medium {
+        width: 100%;
+    }
+
+    /* Name field */
+    div.ginput_complex.ginput_container.gf_name_has_5 .gravitizer_field span,
+    div.ginput_complex.ginput_container.gf_name_has_4 .gravitizer_field span {
+        width: auto;
+        padding-right: 0;
+    }
+    div.ginput_complex.ginput_container.gf_name_has_3 .gravitizer_field span,
+    div.ginput_complex.ginput_container.gf_name_has_2 .gravitizer_field span,
+    div.ginput_complex.ginput_container.gf_name_has_1 .gravitizer_field span {
+        width: max-content;
+        padding-right: 0;
+    }
+    .gform_wrapper .ginput_container .mdc-text-field .mdc-floating-label,.mdc-select.mdc-select--outlined .mdc-floating-label {
+        display: inline-block;
+        width: auto;
+    }
+    .gform_wrapper .ginput_container .mdc-floating-label.mdc-floating-label--float-above {
+        width: auto;
+        display: inline-block;
+    }
+    .mdc-notched-outline:not(.mdc-notched-outline__notched) .mdc-notched-outline__notch {
+        width: 100%;
+    }
+
+    /* Textarea field */
+    .gform_wrapper .gravitizer_field textarea.large {
+        height: 200px;
+    }
+}
+@media only screen and (max-width: 641px) {
+    
+    .gform_wrapper .ginput_container .mdc-text-field .mdc-floating-label,.mdc-select.mdc-select--outlined .mdc-floating-label {
+        display: inline-block;
+        width: auto;
+    }
+    .gform_wrapper .ginput_container .mdc-floating-label.mdc-floating-label--float-above {
+        width: auto;
+        display: inline-block;
+    }
+}
+
+
