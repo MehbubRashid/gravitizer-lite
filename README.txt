@@ -56,3 +56,8 @@ Convert your Gravity Forms into Google Material UI design in one click. Style th
 = 1.0.0 =
 * First release.
 
+== Want to contribute? ==
+You are welcome to contribute to this open source plugin.
+
+[**Github Link**](https://github.com/MehbubRashid/gravitizer-lite)
+
