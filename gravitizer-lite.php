@@ -16,7 +16,7 @@
  * Plugin Name:       Gravitizer Lite
  * Plugin URI:        https://codecanyon.net/item/gravitizer-gravity-forms-material-ui-styler/26570055
  * Description:       Convert your traditional looking Gravity Forms into Material UI in one click
- * Version:           1.0.3
+ * Version:           1.0.4
  * Author:            DivDojo
  * Author URI:        https://codecanyon.net/user/divdojo/portfolio
  * License:           GPL-2.0+
@@ -35,7 +35,7 @@ if ( ! defined( 'WPINC' ) ) {
  * Start at version 1.0.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define( 'GRAVITIZER_LITE_VERSION', '1.0.3' );
+define( 'GRAVITIZER_LITE_VERSION', '1.0.4' );
 
 /**
  * The code that runs during plugin activation.
@@ -63,8 +63,9 @@ register_deactivation_hook( __FILE__, 'gravitizer_lite_deactivate' );
  * The core plugin class that is used to define internationalization,
  * admin-specific hooks, and public-facing site hooks.
  */
+require_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 if ( !is_plugin_active( 'gravitizer/gravitizer.php' ) ) {
-	//pro version is activated
+	//pro version is not activated, so we can proceed on the free version
 	require plugin_dir_path( __FILE__ ) . 'includes/class-gravitizer-lite.php';
 	/**
 	 * Begins execution of the plugin.
