@@ -21,6 +21,7 @@ Convert your Gravity Forms into Google Material UI design in one click. Style th
 *   Go to appearance tab.
 *   Select "Yes" from the dropdown called "Enable Material UI for this field"
 *   Save your form and you can see the field is now converted into Material UI !!
+*   Click on customize in your form page to customize the look of your form using WP customizer
 
 
     
@@ -32,6 +33,9 @@ Convert your Gravity Forms into Google Material UI design in one click. Style th
 2. The live visual styler
 
 == Changelog ==
+
+= 1.0.6 =
+* Improved documentation and added another option
 
 = 1.0.5 =
 * Fixed multiple value error.

@@ -118,10 +118,11 @@ class Gravitizer_Lite_Admin {
 	public function if_plugin_updated() {
 		if(get_option('Gravitizer_Lite_Version') !== GRAVITIZER_LITE_VERSION) {
 			// Plugin has been updated
-
+			
 
 			// Update the version
 			update_option('Gravitizer_Lite_Version', GRAVITIZER_LITE_VERSION);
+			update_option('maybe_gravitizer_installed', 'yes');
 		}
 	}
 
