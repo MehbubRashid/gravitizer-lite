@@ -179,6 +179,8 @@ class Gravitizer_Lite {
 		$this->loader->add_filter( 'gform_field_choice_markup_pre_render', $plugin_admin, 'gravitizer_choices_markup', 10, 4 );
 
 		$this->loader->add_action( 'wp_head', $plugin_admin, 'gravitizer_customizer_css' );
+
+		$this->loader->add_filter('plugin_action_links_gravitizer-lite/gravitizer-lite.php', $plugin_admin, 'add_action_link');
 	}
 
 	/**

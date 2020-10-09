@@ -126,6 +126,12 @@ class Gravitizer_Lite_Admin {
 		}
 	}
 
+	public function add_action_link($links){
+		$links['how_to_use_gravitizer'] = '<a style="color:#03c303;font-weight:bold;" href="https://wordpress.org/plugins/gravitizer-lite/#tab-description" target="_blank" class="">'.__('How to Use', 'gravitizer-lite').'</a>';
+
+		return $links;
+	}
+
 
 	public function gravitizer_editor_script(){
 		?>

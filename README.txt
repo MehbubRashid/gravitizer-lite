@@ -34,6 +34,9 @@ Convert your Gravity Forms into Google Material UI design in one click. Style th
 
 == Changelog ==
 
+= 1.0.7 =
+* Added documentation link
+
 = 1.0.6 =
 * Improved documentation and added another option
 
