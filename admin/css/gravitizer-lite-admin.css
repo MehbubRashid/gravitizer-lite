@@ -49,3 +49,14 @@ h2.gravitizer-pro-branding a {
 .gravitizer-pro-demo img {
     height: 185px;
 }
+
+
+/* admin notice */
+.grav-howto-notice {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.grav-howto-notice a {
+    margin-left: 10px;
+}

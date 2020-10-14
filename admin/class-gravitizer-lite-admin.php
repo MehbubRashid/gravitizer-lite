@@ -114,6 +114,25 @@ class Gravitizer_Lite_Admin {
 		}
 	}
 
+	// Display how to use notice
+	public function show_gravitizer_howto_notice(){
+		if(get_option('how_to_use_notice_dismissed', 'no') == 'no'){
+			?>
+			<div class="grav-howto-notice notice notice-success"> 
+				<?php esc_html_e('Thank you for installing Gravitizer'); ?>
+				<a target="_blank" href="https://wordpress.org/plugins/gravitizer-lite/#description-header"><button class="button button-primary"><?php  esc_html_e('How to use', 'gravitizer-lite'); ?></button></a>
+				<a href="?grav-howto-dismiss=true"><button class="button button-cancel"><?php  esc_html_e('No, Thanks', 'gravitizer-lite'); ?></button></a>
+			</div>
+			<?php
+		}
+	}
+
+	public function dismiss_gravitizer_howto_notice(){
+		if(isset($_GET['grav-howto-dismiss'])){
+			update_option('how_to_use_notice_dismissed', 'yes');
+		}
+	}
+
 	// Execute this function after the plugin is updated
 	public function if_plugin_updated() {
 		if(get_option('Gravitizer_Lite_Version') !== GRAVITIZER_LITE_VERSION) {

@@ -181,6 +181,9 @@ class Gravitizer_Lite {
 		$this->loader->add_action( 'wp_head', $plugin_admin, 'gravitizer_customizer_css' );
 
 		$this->loader->add_filter('plugin_action_links_gravitizer-lite/gravitizer-lite.php', $plugin_admin, 'add_action_link');
+
+		$this->loader->add_action( 'admin_notices', $plugin_admin, 'show_gravitizer_howto_notice' );
+		$this->loader->add_action( 'admin_init', $plugin_admin, 'dismiss_gravitizer_howto_notice' );
 	}
 
 	/**
