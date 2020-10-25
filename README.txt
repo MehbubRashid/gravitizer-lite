@@ -13,7 +13,7 @@ Convert your Gravity Forms into Google Material UI design in one click. Style th
 == Description ==
 
 Convert your Gravity Forms into Google Material UI design in one click. Style them with the live visual styler.
-[**DEMO**](https://kudumagnets.com/backup/gravitizer-demo)
+[**DEMO**](https://divdojo.com/gravitizer)
 
 **How to use:**
 
