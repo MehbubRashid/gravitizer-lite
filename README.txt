@@ -34,6 +34,9 @@ Convert your Gravity Forms into Google Material UI design in one click. Style th
 
 == Changelog ==
 
+= 1.0.9 =
+* Fixed notice cancel button wrong redirect issue.
+
 = 1.0.8 =
 * Added how to use notice
 
