@@ -121,7 +121,7 @@ class Gravitizer_Lite_Admin {
 			<div class="grav-howto-notice notice notice-success"> 
 				<?php esc_html_e('Thank you for installing Gravitizer'); ?>
 				<a target="_blank" href="https://wordpress.org/plugins/gravitizer-lite/#description-header"><button class="button button-primary"><?php  esc_html_e('How to use', 'gravitizer-lite'); ?></button></a>
-				<a href="<?php add_query_arg( array('grav-howto-dismiss' => 'true') ); ?>"><button class="button button-cancel"><?php  esc_html_e('No, Thanks', 'gravitizer-lite'); ?></button></a>
+				<a href="<?php echo esc_url( add_query_arg( 'grav-howto-dismiss', 'true' ) ); ?>"><button class="button button-cancel"><?php  esc_html_e('No, Thanks', 'gravitizer-lite'); ?></button></a>
 			</div>
 			<?php
 		}
