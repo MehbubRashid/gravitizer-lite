@@ -248,131 +248,131 @@ class Gravitizer_Lite_Admin {
 				function perform_gravitizer(fieldType, status, parent) {
 					if(fieldType === 'text') {
 						if(status === 'yes') {
-							jQuery(parent+' .textbox_type_setting.field_setting').show();
-							jQuery(parent+' .description_placement_setting.field_setting').show();
-							jQuery(parent+' .input_icon_setting.field_setting').show();
-							jQuery(parent+' .icon_placement_setting.field_setting').show();
+							jQuery('.textbox_type_setting.field_setting').show();
+							jQuery('.description_placement_setting.field_setting').show();
+							jQuery('.input_icon_setting.field_setting').show();
+							jQuery('.icon_placement_setting.field_setting').show();
 							
-							jQuery(parent+' .label_placement_setting.field_setting').hide();
-							jQuery(parent+' .placeholder_setting.field_setting').hide();
+							jQuery('.label_placement_setting.field_setting').hide();
+							jQuery('.placeholder_setting.field_setting').hide();
 
 							
 						}
 						else {
-							jQuery(parent+' .textbox_type_setting.field_setting').hide();
-							jQuery(parent+' .description_placement_setting.field_setting').hide();
-							jQuery(parent+' .input_icon_setting.field_setting').hide();
-							jQuery(parent+' .icon_placement_setting.field_setting').hide();
+							jQuery('.textbox_type_setting.field_setting').hide();
+							jQuery('.description_placement_setting.field_setting').hide();
+							jQuery('.input_icon_setting.field_setting').hide();
+							jQuery('.icon_placement_setting.field_setting').hide();
 
-							jQuery(parent+' .label_placement_setting.field_setting').show();
-							jQuery(parent+' .placeholder_setting.field_setting').show();
+							jQuery('.label_placement_setting.field_setting').show();
+							jQuery('.placeholder_setting.field_setting').show();
 						}
 					}
 					else if(fieldType === 'checkbox') {
 						if(status === 'yes') {
-							jQuery(parent+' .checkbox_type_setting.field_setting').show();
+							jQuery('.checkbox_type_setting.field_setting').show();
 						}
 						else {
-							jQuery(parent+' .checkbox_type_setting.field_setting').hide();
+							jQuery('.checkbox_type_setting.field_setting').hide();
 						}
 					}
 					else if(fieldType === 'address') {
 						if(status === 'yes') {
-							jQuery(parent+' .textbox_type_setting.field_setting').show();
-							jQuery(parent+' .sub_label_placement_setting.field_setting').hide();
+							jQuery('.textbox_type_setting.field_setting').show();
+							jQuery('.sub_label_placement_setting.field_setting').hide();
 							
 						}
 						else {
-							jQuery(parent+' .textbox_type_setting.field_setting').hide();
-							jQuery(parent+' .sub_label_placement_setting.field_setting').show();
+							jQuery('.textbox_type_setting.field_setting').hide();
+							jQuery('.sub_label_placement_setting.field_setting').show();
 						}
 					}
 					else if(fieldType === 'name') {
 						if(status === 'yes') {
-							jQuery(parent+' .textbox_type_setting.field_setting').show();
-							jQuery(parent+' .sub_label_placement_setting.field_setting').hide();
+							jQuery('.textbox_type_setting.field_setting').show();
+							jQuery('.sub_label_placement_setting.field_setting').hide();
 						}
 						else {
-							jQuery(parent+' .textbox_type_setting.field_setting').hide();
-							jQuery(parent+' .sub_label_placement_setting.field_setting').show();
+							jQuery('.textbox_type_setting.field_setting').hide();
+							jQuery('.sub_label_placement_setting.field_setting').show();
 						}
 					}
 					else if(fieldType === 'number') {
 						if(status === 'yes') {
-							jQuery(parent+' .textbox_type_setting.field_setting').show();
-							jQuery(parent+' .description_placement_setting.field_setting').show();
-							jQuery(parent+' .input_icon_setting.field_setting').show();
-							jQuery(parent+' .icon_placement_setting.field_setting').show();
+							jQuery('.textbox_type_setting.field_setting').show();
+							jQuery('.description_placement_setting.field_setting').show();
+							jQuery('.input_icon_setting.field_setting').show();
+							jQuery('.icon_placement_setting.field_setting').show();
 							
-							jQuery(parent+' .label_placement_setting.field_setting').hide();
-							jQuery(parent+' .placeholder_setting.field_setting').hide();
+							jQuery('.label_placement_setting.field_setting').hide();
+							jQuery('.placeholder_setting.field_setting').hide();
 						}
 						else {
-							jQuery(parent+' .textbox_type_setting.field_setting').hide();
-							jQuery(parent+' .description_placement_setting.field_setting').hide();
-							jQuery(parent+' .input_icon_setting.field_setting').hide();
-							jQuery(parent+' .icon_placement_setting.field_setting').hide();
+							jQuery('.textbox_type_setting.field_setting').hide();
+							jQuery('.description_placement_setting.field_setting').hide();
+							jQuery('.input_icon_setting.field_setting').hide();
+							jQuery('.icon_placement_setting.field_setting').hide();
 
-							jQuery(parent+' .label_placement_setting.field_setting').show();
-							jQuery(parent+' .placeholder_setting.field_setting').show();
+							jQuery('.label_placement_setting.field_setting').show();
+							jQuery('.placeholder_setting.field_setting').show();
 						}
 					}
 					else if(fieldType === 'website') {
 						if(status === 'yes') {
-							jQuery(parent+' .textbox_type_setting.field_setting').show();
-							jQuery(parent+' .description_placement_setting.field_setting').show();
-							jQuery(parent+' .input_icon_setting.field_setting').show();
-							jQuery(parent+' .icon_placement_setting.field_setting').show();
+							jQuery('.textbox_type_setting.field_setting').show();
+							jQuery('.description_placement_setting.field_setting').show();
+							jQuery('.input_icon_setting.field_setting').show();
+							jQuery('.icon_placement_setting.field_setting').show();
 							
-							jQuery(parent+' .label_placement_setting.field_setting').hide();
-							jQuery(parent+' .placeholder_setting.field_setting').hide();
+							jQuery('.label_placement_setting.field_setting').hide();
+							jQuery('.placeholder_setting.field_setting').hide();
 						}
 						else {
-							jQuery(parent+' .textbox_type_setting.field_setting').hide();
-							jQuery(parent+' .description_placement_setting.field_setting').hide();
-							jQuery(parent+' .input_icon_setting.field_setting').hide();
-							jQuery(parent+' .icon_placement_setting.field_setting').hide();
+							jQuery('.textbox_type_setting.field_setting').hide();
+							jQuery('.description_placement_setting.field_setting').hide();
+							jQuery('.input_icon_setting.field_setting').hide();
+							jQuery('.icon_placement_setting.field_setting').hide();
 
-							jQuery(parent+' .label_placement_setting.field_setting').show();
-							jQuery(parent+' .placeholder_setting.field_setting').show();
+							jQuery('.label_placement_setting.field_setting').show();
+							jQuery('.placeholder_setting.field_setting').show();
 						}
 					}
 					else if(fieldType === 'phone') {
 						if(status === 'yes') {
-							jQuery(parent+' .textbox_type_setting.field_setting').show();
-							jQuery(parent+' .description_placement_setting.field_setting').show();
-							jQuery(parent+' .input_icon_setting.field_setting').show();
-							jQuery(parent+' .icon_placement_setting.field_setting').show();
+							jQuery('.textbox_type_setting.field_setting').show();
+							jQuery('.description_placement_setting.field_setting').show();
+							jQuery('.input_icon_setting.field_setting').show();
+							jQuery('.icon_placement_setting.field_setting').show();
 							
-							jQuery(parent+' .label_placement_setting.field_setting').hide();
-							jQuery(parent+' .placeholder_setting.field_setting').hide();
+							jQuery('.label_placement_setting.field_setting').hide();
+							jQuery('.placeholder_setting.field_setting').hide();
 						}
 						else {
-							jQuery(parent+' .textbox_type_setting.field_setting').hide();
-							jQuery(parent+' .description_placement_setting.field_setting').hide();
-							jQuery(parent+' .input_icon_setting.field_setting').hide();
-							jQuery(parent+' .icon_placement_setting.field_setting').hide();
+							jQuery('.textbox_type_setting.field_setting').hide();
+							jQuery('.description_placement_setting.field_setting').hide();
+							jQuery('.input_icon_setting.field_setting').hide();
+							jQuery('.icon_placement_setting.field_setting').hide();
 
-							jQuery(parent+' .label_placement_setting.field_setting').show();
-							jQuery(parent+' .placeholder_setting.field_setting').show();
+							jQuery('.label_placement_setting.field_setting').show();
+							jQuery('.placeholder_setting.field_setting').show();
 						}
 					}
 					else if(fieldType === 'email') {
 						if(status === 'yes') {
-							jQuery(parent+' .textbox_type_setting.field_setting').show();
-							jQuery(parent+' .placeholder_setting.field_setting').hide();
+							jQuery('.textbox_type_setting.field_setting').show();
+							jQuery('.placeholder_setting.field_setting').hide();
 						}
 						else {
-							jQuery(parent+' .textbox_type_setting.field_setting').hide();
-							jQuery(parent+' .placeholder_setting.field_setting').show();
+							jQuery('.textbox_type_setting.field_setting').hide();
+							jQuery('.placeholder_setting.field_setting').show();
 						}
 					}
 					else if(fieldType === 'textarea') {
 						if(status === 'yes') {
-							jQuery(parent+' .placeholder_textarea_setting.field_setting').hide();
+							jQuery('.placeholder_textarea_setting.field_setting').hide();
 						}
 						else {
-							jQuery(parent+' .placeholder_textarea_setting.field_setting').show();
+							jQuery('.placeholder_textarea_setting.field_setting').show();
 						}
 					}
 				}
