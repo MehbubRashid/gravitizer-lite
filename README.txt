@@ -34,6 +34,9 @@ Convert your Gravity Forms into Google Material UI design in one click. Style th
 
 == Changelog ==
 
+= 2.0.1 =
+* Made compatible with GF 2.5
+
 = 2.0.0 =
 * Fixed url echo issue
 
